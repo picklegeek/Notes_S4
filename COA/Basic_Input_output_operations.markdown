@@ -1,2 +1,23 @@
 # Program Controlled I/O operations
-- Read in charecter input from a keyboard and produce keyboard output on display screen
+- Read in charecter input from a keyboard and produce keyboard output on display screen.
+- Processor intervenes in all tasks.
+
+```
+Machine instructions that can check the state of the staus flags and tranfer data
+
+READWAIT - Branch to READWAUT if SIN = 0 input from DATAIN to R1
+```
+## Importance of Stack and Queue
+The most common data structure used to control flow on instruction are stack and queue.
+
+### Stack Organisation
+- Memory Stack
+``` 
+| Program |
+|         |
+|         |
+|  Data   |
+|         |
+|  Stack  |
+```
+
