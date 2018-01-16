@@ -6,3 +6,7 @@
 <b>Partial Participation</b> Every entity may/maynot participate in the relationship.
 
 
+```
+Relationships may have it's own attributes.
+```
+
