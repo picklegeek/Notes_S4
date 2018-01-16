@@ -1,5 +1,5 @@
 # Program Controlled I/O operations
-- Read in charecter input from a keyboard and produce keyboard output on display screen.
+- Read in charecter input from a keyboard and    produce keyboard output on display screen.
 - Processor intervenes in all tasks.
 
 ```
@@ -19,5 +19,14 @@ The most common data structure used to control flow on instruction are stack and
 |  Data   |
 |         |
 |  Stack  |
+
 ```
+
+## Parameter Passing by
+- <b>Saving in Registers/Memory locations</b> 
+
+## Stack frame
+- The location in the stack used when subroutine running, freed when subroutine ended
+
+- Frame pointer-to access parameters and local m/y variables 
 
