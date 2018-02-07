@@ -11,7 +11,7 @@ Normally in DBS three levels of hierarchy exists:
 3. Internal Level
 
 This helps in implementing Database abstraction.
-
+<img src="Schema_Mapping.jpg"></img>
 #### If there is no seperation between conceptual and internal level ,DDL is used to define both these levels.
 
 <b>SDL</b> - Storage Defenition Level
