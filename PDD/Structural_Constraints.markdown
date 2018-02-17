@@ -1,9 +1,10 @@
--<b>Cardinality Ratio</b> Maximum number of relationship than an entity can participate in.
-- <b>Participation constraints </b> minimum of relationship instance that each entity can have.
+**Cardinality Ratio** Maximum number of relationship than an entity can participate in.
 
-<b>Total Participation</b> Every entity should participate in the relationship.
+**Participation constraints** minimum of relationship instance that each entity can have.
 
-<b>Partial Participation</b> Every entity may/maynot participate in the relationship.
+**Total Participation** Every entity should participate in the relationship.
+
+**Partial Participation** Every entity may/may not participate in the relationship.
 
 
 ```

@@ -1,12 +1,12 @@
 ## Relational Algebra Operators
  ### Unary 
-  ```sql
+  ```mysql
   SELECT (σ)
   PROJECT (π)
   RENAME (ρ)
   ```
   ### From Set Theory
-  ```sql
+  ```mysql
   UNION ( U )
   INTERSECTION ( ∩ )
   CARTESIAN PRODUCT ( or / -)
@@ -21,7 +21,7 @@
   #### SELECT operation
   ```sql
   SELECT employee  FROM company WHERE salary > 30000
-```
+  ```
 The Algebra equivalent is
 
  σ<sub>salary  >  30000 </sub> (employee)
@@ -33,7 +33,7 @@ PROJECT fname ,lname FROM employee
 ```
 The Algebra equivalent is
 
-π<sub>fname,lname</sub>(EMPLOYEE)
+π <sub>fname,lname</sub> (EMPLOYEE)
 
 **Q1.**  Retrieve the first name last name and salary of all employees who work in dept number 5
 
@@ -49,3 +49,4 @@ The Algebra equivalent is
 **ρ<sub>(b1,b2,b3...,bn)</sub>(R)**- Renames the attributes of R to b1,b2,...bn
 
 ρ<sub>First_name,Last_name,Salary</sub>(π<sub>Fname,Lname,Salary</sub>)
+
